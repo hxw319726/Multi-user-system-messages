@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+#active{
+	width:auto;
+	height:400px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#active h2{
+	text-indent:0px;
+	text-align:center;
+}
+#active p{
+	margin:20px;
+	text-align:center;
+}

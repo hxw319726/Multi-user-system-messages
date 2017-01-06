@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+#member{
+	width:auto;
+	height:700px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#member h2{
+	text-indent:0;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+#member #member_sidebar{
+	width:300px; 
+	height:500px;
+	border:1px solid #999;
+	margin:15px;
+	float:left;
+}
+#member #member_sidebar dl{
+	width:250px;
+	margin:15px auto;
+	background:red;
+}
+#member #member_sidebar dl dt{
+	height:40px;
+	line-height:40px;
+	background:#999;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	font-size:14px;
+}
+#member #member_sidebar dl dd{
+	height:40px;
+	line-height:40px;
+	background:#eee;
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+}
+#member #member_sidebar dl dd a{
+	display:block;
+	text-decoration:none;
+	color:#333;
+}
+#member #member_sidebar dl dd a:hover{
+	background:#ccc;
+}
+#member #member_main{
+	width:590px; 
+	height:600px;
+	border:1px solid #999;
+	margin:15px;
+	float:right;
+}
+#member #member_main dl{
+	width:500px;
+	margin:15px auto;
+	font-size:14px;
+	
+}
+#member #member_main dl dd{
+	border-bottom:1px dashed #999;
+	padding:10px 0;
+	
+}
+#member #member_main dl dd input.text{
+	width:180px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+
+#member #member_main dl dd input.submit{
+	width:100px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+	padding:0 0 2px 0;
+	cursor:pointer;
+	margin:0 0 0 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

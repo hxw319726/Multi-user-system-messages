@@ -1,0 +1,177 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#fff;
+	width:960px;
+	margin:0 auto;
+}
+ul{
+	list-style-type:none;
+}
+h2{
+	background:#eee;
+	font-size:14px;
+	height:25px;
+	line-height:25px;
+	text-indent:10px;
+}
+.header{
+	width:auto;
+	height:150px;
+	margin:10px 0 10px 0;	
+	border:2px solid #ccc;	
+}
+.header h1{
+
+	margin:10px 0 0 10px;
+}
+.header ul{
+
+	text-align:right;
+	margin-right:30px;
+	margin-top:50px;
+}
+.header ul li{
+	display:inline;
+	margin:0 5px;
+}
+.header ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+.header ul li a:hover{
+	color:#f00;
+	text-decoration:underline;
+}
+.header ul li strong.read{
+	background:url(../../images/meg.gif)no-repeat left center;
+	padding-left:15px;
+}
+.header ul li strong.noread{
+	background:url(../../images/noread.gif)no-repeat left center;
+	padding-left:15px;
+}
+.footer{
+	clear:both;
+	width:auto;
+	height:60px;
+	text-align:center;
+}
+.footer p{
+	font-size:12px;
+	letter-spacing:1px;
+	margin-top:5px;
+}
+#page_num{
+	clear:both;
+	font-size:12px;
+}
+#page_num ul{
+	text-align:right;
+	padding-top:20px;
+	padding-right:10px;
+}
+#page_num ul li{
+	width:20px;
+	height:20px;
+	text-align:center;
+	border:1px solid #333;
+	display:inline-block;
+	margin:0 5px 0 0
+}
+#page_num ul li a{
+	width:20px;
+	height:20px;
+	line-height:20px;
+	display:block;
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+#page_num ul li a:hover,#page_num ul li a.selected{
+	color:#fff;
+	background:#666;
+	font-weight:bold;
+}
+#page_text{
+	clear:both;
+	font-size:12px;
+}
+#page_text ul{
+	text-align:center;
+	padding-top:50px;
+	padding-right:10px;
+}
+#page_text ul li{
+	display:inline;
+	padding:0 3px;
+}
+#page_text ul li a{
+	color:#333;
+	text-decoration:none;
+
+}
+#page_text ul li strong{
+	margin:0 5px;
+}
+#member{
+	width:auto;
+	height:600px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#member h2{
+	text-indent:0;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+#member #member_sidebar{
+	width:300px; 
+	height:500px;
+	border:1px solid #999;
+	margin:15px;
+	float:left;
+}
+#member #member_sidebar dl{
+	width:250px;
+	margin:15px auto;
+	background:red;
+}
+#member #member_sidebar dl dt{
+	height:40px;
+	line-height:40px;
+	background:#999;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	font-size:14px;
+}
+#member #member_sidebar dl dd{
+	height:40px;
+	line-height:40px;
+	background:#eee;
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+}
+#member #member_sidebar dl dd a{
+	display:block;
+	text-decoration:none;
+	color:#333;
+}
+#member #member_sidebar dl dd a:hover{
+	background:#ccc;
+}
+#member #member_main{
+	width:590px; 
+	height:500px;
+	border:1px solid #999;
+	margin:15px;
+	float:right;
+}

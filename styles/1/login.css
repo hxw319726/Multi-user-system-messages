@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+#login{
+	width:auto;
+	height:370px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#login h2{
+	text-indent:0px;
+	text-align:center;
+}
+#login dl{
+	width:430px;
+	margin:0 auto;
+	padding-top:20px;
+}
+#login dl dt{
+	text-align:center;
+	font-weight:bold;
+	margin:10px 0;
+}
+#login dl dd{
+	margin:10px auto;
+}
+#login dl dd span{
+	display:inline-block;
+	width:100px;
+	margin-right:5px;
+	text-align:right;
+}
+#login dl dd .text{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+#login dl dd input[type='radio']{
+	position:relative;
+	top:2px;
+	margin-right:3px;
+}
+#login dl dd input.submit{
+	width:60px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	text-align:center;
+	margin-left:105px;
+	line-height:14px;
+	margin-top:10px;
+}
+#login dl dd input.qingchu{
+	width:60px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	text-align:center;
+	margin-left:30px;
+	line-height:14px;
+	margin-top:10px;
+}
+#login dl dd .yzm{
+	width:60px;
+}
+#login dl dd img#code{
+	position:relative;
+	top:5px;
+	left:5px;
+	cursor:pointer;
+}

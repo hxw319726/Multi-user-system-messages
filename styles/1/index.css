@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+#lists{
+	width:600px;
+	height:514px;
+	float:right;
+	border:2px solid #ccc;
+}
+#lists a.post{
+	display:block;
+	width:114px;
+	height:33px;
+	background:url(../../images/aricle.jpg)no-repeat left center;
+	text-indent:-9999px;
+	margin:10px 10px 0 auto;
+}
+#lists ul.aricle{
+	padding:10px 50px;
+}
+#lists ul.aricle li{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dashed #333;
+	padding:0 0 0 25px;
+}
+#lists ul.aricle li em{
+	font-style:normal;
+	float:right;
+}
+#lists ul.aricle li a{
+	color:#333;
+}
+#lists ul.aricle li a:hover{
+	color:#f60;
+}
+#lists ul.aricle li.icon1{
+	background:url(../../images/icon1.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon2{
+	background:url(../../images/icon2.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon3{
+	background:url(../../images/icon3.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon4{
+	background:url(../../images/icon4.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon5{
+	background:url(../../images/icon5.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon6{
+	background:url(../../images/icon6.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon7{
+	background:url(../../images/icon7.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon8{
+	background:url(../../images/icon8.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon9{
+	background:url(../../images/icon9.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon10{
+	background:url(../../images/icon10.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon11{
+	background:url(../../images/icon11.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon12{
+	background:url(../../images/icon12.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon13{
+	background:url(../../images/icon13.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon14{
+	background:url(../../images/icon14.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon15{
+	background:url(../../images/icon15.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon16{
+	background:url(../../images/icon16.gif)no-repeat left center;
+}
+#lists ul.aricle li.icon1{
+	background:url(../../images/icon1.gif)no-repeat left center;
+}
+
+
+#user{
+	width:340px;
+	height:250px;
+	float:left;
+	margin-bottom:10px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#user dl{
+	width:170px;
+	margin:0 auto;
+	padding-top:8px;
+}
+#user dl dt{
+	width:170px;
+	text-align:center;	
+	margin:0 0 5px 0;
+}
+#user dl dt img{
+	display:block;
+	margin:0 auto;	
+}
+#user dl dd{
+	width:85px;
+	height:20px;
+	line-height:20px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+}
+#user dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+#user dl dd.user{
+	width:170px;
+	float:none;
+	text-align:center;
+	color:#f60;
+}
+#user dl dd.message{
+	background:url(../../images/x1.gif)no-repeat 4px center;
+}
+#user dl dd.friend{
+	background:url(../../images/x2.gif)no-repeat -2px center;
+}
+#user dl dd.guest{
+	background:url(../../images/x3.gif)no-repeat 4px center;
+}
+#user dl dd.flower{
+	background:url(../../images/x4.gif)no-repeat -2px center;
+}
+#user dl dd.email{
+	width:170px;
+	text-align:left;
+	text-indent:5px;
+	padding:2px 0 0 0;
+}
+#user dl dd.url{
+	width:170px;
+	text-align:left;
+	text-indent:5px;
+	padding:2px 0 0 0;
+}
+#pics{
+	width:340px;
+	height:250px;
+	float:left;
+	border:2px solid #ccc;
+	margin-bottom:10px;
+}
+#pics img{
+	display:block;
+	margin:20px auto;
+	border:none;
+}

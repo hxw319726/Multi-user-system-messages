@@ -1,0 +1,404 @@
+@CHARSET "UTF-8";
+#article{
+	width:auto;
+	min-height:800px;
+	border:2px solid #ccc;
+	font-size:12px;
+	padding-bottom:20px;
+}
+#article h2{
+	text-indent:0px;
+	text-align:center;
+}
+#article #subject dl{
+	width:170px;
+	padding-top:8px;
+	float:left;
+	padding-left:50px;
+}
+#article #subject dl dt{
+	width:170px;
+	text-align:center;	
+	margin:0 0 5px 0;
+}
+#article #subject dl dt img{
+	display:block;
+	margin:0 auto;	
+}
+#article #subject dl dd{
+	width:85px;
+	height:20px;
+	line-height:20px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+}
+#article #subject dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+#article #subject dl dd.user{
+	width:170px;
+	float:none;
+	text-align:center;
+	color:#f60;
+}
+#article #subject dl dd.message{
+	background:url(../../images/x1.gif)no-repeat 4px center;
+}
+#article #subject dl dd.friend{
+	background:url(../../images/x2.gif)no-repeat -2px center;
+}
+#article #subject dl dd.guest{
+	background:url(../../images/x3.gif)no-repeat 4px center;
+}
+#article #subject dl dd.flower{
+	background:url(../../images/x4.gif)no-repeat -2px center;
+}
+#article #subject dl dd.email{
+	width:170px;
+	text-align:left;
+	text-indent:5px;
+	padding:2px 0 0 0;
+}
+#article #subject dl dd.url{
+	width:170px;
+	text-align:left;
+	text-indent:5px;
+	padding:2px 0 0 0;
+}
+#article #subject div.content{
+	width:680px;
+	float:right;
+
+	padding:5px 20px 0 0;
+}
+#article #subject div.content .user{
+	line-height:30px;
+	heitht:30px;
+	background:url(../../images/member.gif)no-repeat left center;
+	border-bottom:1px dashed #999;
+	color:#666;
+	padding:0 0 0 20px;
+	
+}
+#article #subject div.content .user span{
+	float:right;
+	color:#06f;
+	
+}
+#article #subject div.content h3{
+	font-size:14px;
+	height:40px;
+	line-height:40px;
+	
+}
+#article #subject div.content h3 span{
+	font-size:12px;
+	color:#06f;
+	
+}
+#article #subject div.content h3 span a{
+	color:#06f;
+	text-decoration:none;
+	
+}
+#article #subject div.content h3 span a:hover{
+	text-decoration:underline;
+	color:#f60;
+	
+}
+#article #subject div.content h3 img{
+	position:relative;
+	top:4px;
+	margin-left:3px;	
+}
+#article #subject div.content .detail{
+	line-height:200%;
+	font-size:14px;
+	
+}
+#article #subject div.content .detail p.autograph{
+	color:#666;
+	border-bottom:1px dashed #666;
+	margin:5px 0;
+	width:80%;
+	padding:5px 0;
+	
+}
+#article #subject div.content .read{
+	color:#666;
+	font-size:14px;
+	padding:15px 0 0 0;
+	
+}
+#article #subject div.content .read p{	
+	padding:0 0 10px 0;
+	text-align:right;	
+}
+#article p.line{
+	height:20px;
+	clear:both;
+	border-bottom:1px dashed #333;
+	width:95%;
+	margin:0 auto;
+	
+}
+#article .re dl{
+	width:170px;
+	padding-top:8px;
+	float:left;
+	padding-left:50px;
+}
+#article .re dl dt{
+	width:170px;
+	text-align:center;	
+	margin:0 0 5px 0;
+}
+#article .re dl dt img{
+	display:block;
+	margin:0 auto;	
+}
+#article .re dl dd{
+	width:85px;
+	height:20px;
+	line-height:20px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+}
+#article .re dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+#article .re dl dd.user{
+	width:170px;
+	float:none;
+	text-align:center;
+	color:#f60;
+}
+#article .re dl dd.message{
+	background:url(../../images/x1.gif)no-repeat 4px center;
+}
+#article .re dl dd.friend{
+	background:url(../../images/x2.gif)no-repeat -2px center;
+}
+#article .re dl dd.guest{
+	background:url(../../images/x3.gif)no-repeat 4px center;
+}
+#article .re dl dd.flower{
+	background:url(../../images/x4.gif)no-repeat -2px center;
+}
+#article .re dl dd.email{
+	width:170px;
+	text-align:left;
+	text-indent:5px;
+	padding:2px 0 0 0;
+}
+#article .re dl dd.url{
+	width:170px;
+	text-align:left;
+	text-indent:5px;
+	padding:2px 0 0 0;
+}
+#article .re div.content{
+	width:680px;
+	float:right;
+
+	padding:5px 20px 0 0;
+}
+#article .re div.content .user{
+	line-height:30px;
+	heitht:30px;
+	background:url(../../images/member.gif)no-repeat left center;
+	border-bottom:1px dashed #999;
+	color:#666;
+	padding:0 0 0 20px;
+	
+}
+#article .re div.content .user span{
+	float:right;
+	color:#06f;
+	
+}
+#article .re div.content h3{
+	font-size:14px;
+	height:40px;
+	line-height:40px;
+	
+}
+#article .re div.content h3 span{
+	font-size:12px;
+	color:#06f;
+	
+}
+#article .re div.content h3 span a{
+	color:#06f;
+	text-decoration:none;
+	
+}
+#article .re div.content h3 span a:hover{
+	text-decoration:underline;
+	color:#f60;
+	
+}
+#article .re div.content h3 img{
+	position:relative;
+	top:4px;
+	margin-left:3px;	
+}
+#article .re div.content .detail{
+	line-height:200%;
+	font-size:14px;
+	
+}
+#article .re div.content .detail p.autograph{
+	color:#666;
+	border-bottom:1px dashed #666;
+	margin:5px 0;
+	width:80%;
+	padding:5px 0;
+	
+}
+#article .re div.content .read{
+	color:#666;
+	font-size:14px;
+	padding:15px 0 0 0;
+	
+}
+#article form{
+	position:relative;
+	margin:20px 0;
+}
+#article form dl{
+	width:500px;
+	margin:0 auto;
+}
+#article form dl dt{
+	text-align:center;
+	font-weight:bold;
+	margin:20px 0;
+}
+#article form dl dd{
+	margin:8px auto;
+	margin-left:40px;
+}
+#article form dl dd{
+	margin:8px auto;
+	margin-left:40px;
+}
+#article form dl dd#q a{
+	color:#333;
+	text-decoration:none;
+	margin-right:10px; 
+}
+#article form dl dd.type input[type='radio']{
+	position:relative;
+	margin-right:3px;
+	cursor:pointer;
+}
+#article form dl dd.type img{
+	margin-right:5px;
+}
+#article form dl dd.type label{
+	cursor:pointer;
+}
+
+#article form dl dd .text{
+	width:300px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+#article form dl dd textarea{
+	width:440px;
+	border:1px dashed #333;
+	border-top:1px solid #333;
+	padding:5px;
+}
+#article form dl dd div#ubb{
+	width:450px;
+	height:26px;
+	border:1px dashed #333;
+	background:url(../../images/bgMenubar.gif);
+	border-bottom:none;
+}
+#article form dl dd div#ubb img{
+	cursor:pointer;
+	padding:3px 0 0 2px;
+}
+#article form dl dd div#color{
+	display:none;
+	width:152px;
+	height:130px;
+	border:1px dashed #333;
+	background:#eee;
+	font-size:12px;
+	padding:4px 0 0 4px;
+	position:absolute;
+	top:79px;
+	left:411px;
+	z-index:2;
+	
+}
+#article form dl dd div#color strong{
+	display:block;	
+	width:12px;
+	height:12px;
+	border:1px solid #999;
+	float:left;
+	margin:4px 0 0 4px;	
+}
+#article form dl dd div#color em{
+	display:block;
+	height:28px;
+	width:80%;
+	clear:both;
+}
+#article form dl dd div#color em input{
+	margin:10px 0 0 4px;
+	width:136px;
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+}
+#article form dl dd div#font{
+	display:none;
+	width:125px;
+	height:40px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:8px;
+	line-height:20px;
+	position:absolute;
+	top:79px;
+	left:268px;
+	z-index:2;
+}
+#article form dl dd div#font strong{
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #ccc;
+	cursor:default;
+	float:left;
+}
+#article form dl dd input.submit{
+	width:60px;
+	height:19px;
+	border:1px dashed #333;
+
+	background:#fff;
+	cursor:pointer;
+	text-align:center;
+	margin-left:10px;
+	line-height:14px;
+}
+#article form dl dd .yzm{
+	width:60px;
+}
+#article form dl dd img#code{
+	position:relative;
+	top:5px;
+	left:5px;
+	cursor:pointer;
+}

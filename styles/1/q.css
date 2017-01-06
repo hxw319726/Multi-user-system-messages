@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+body{
+	width:auto;
+}
+#q h3{
+	width:80%;
+	margin:10px auto;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border:1px dashed #333;
+	
+}
+#q dl{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+#q dl dd{
+	float:left;
+	margin-bottom:5px;	
+	margin-left:10px;
+}
+#q dl dd img:hover{
+	border:1px dashed #333;
+}
